@@ -17,6 +17,9 @@ export const recommended: OxlintConfig = {
     ...restrictionRules,
     ...styleRules,
     ...suspiciousRules,
+    // correctness is enabled wholesale via `categories` above; this entry
+    // only refines getter-return with an option, keeping it at "error".
+    "getter-return": ["error", { allowImplicit: true }],
   },
 };
 
