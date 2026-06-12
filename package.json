@@ -1,0 +1,56 @@
+{
+  "name": "oxlint-config-strict-but-sane",
+  "version": "0.0.1",
+  "description": "Config preset for oxlint",
+  "keywords": [
+    "config",
+    "oxlint",
+    "preset"
+  ],
+  "homepage": "https://github.com/Mateusz-H/oxlint-config-strict-but-sane#readme",
+  "bugs": {
+    "url": "https://github.com/Mateusz-H/oxlint-config-strict-but-sane/issues"
+  },
+  "license": "ISC",
+  "author": "Mateusz Hinca",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateusz-H/oxlint-config-strict-but-sane.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsdown",
+    "test": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.69.0",
+    "oxlint-tsgolint": "^0.23.0",
+    "tsdown": "^0.21.1",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react-hooks": ">=6.0.0",
+    "oxlint": ">=1.69.0",
+    "oxlint-tsgolint": ">=0.23.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "oxlint-tsgolint": {
+      "optional": true
+    }
+  }
+}
