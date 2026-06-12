@@ -36,7 +36,7 @@ export const styleTypescriptRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.4.2
-  "typescript/consistent-indexed-object-style": "inne",
+  "typescript/consistent-indexed-object-style": "off",
   //#endregion
 
   //#region 0.5.2
