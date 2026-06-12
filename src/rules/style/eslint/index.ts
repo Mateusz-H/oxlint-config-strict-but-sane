@@ -27,7 +27,7 @@ export const styleEslintRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.4.4
-  "sort-imports": "error",
+  "sort-imports": "off",
   //#endregion
 
   //#region 0.5.3
@@ -64,7 +64,7 @@ export const styleEslintRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.13.2
-  "no-duplicate-imports": "error",
+  "no-duplicate-imports": ["error", { allowSeparateTypeImports: true }],
   //#endregion
 
   //#region 0.14.1
@@ -81,7 +81,7 @@ export const styleEslintRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.15.5
-  "new-cap": "error",
+  "new-cap": "off",
   //#endregion
 
   //#region 0.15.6

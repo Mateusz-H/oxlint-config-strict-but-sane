@@ -14,7 +14,7 @@ export const restrictionReactRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.15.14
-  "react/jsx-filename-extension": "error",
+  "react/jsx-filename-extension": ["error", { extensions: ["tsx", ".tsx"] }],
   //#endregion
 
   //#region 0.16.11

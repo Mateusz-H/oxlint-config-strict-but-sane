@@ -17,9 +17,11 @@ export const recommended: OxlintConfig = {
     ...restrictionRules,
     ...styleRules,
     ...suspiciousRules,
-    // correctness is enabled wholesale via `categories` above; this entry
-    // only refines getter-return with an option, keeping it at "error".
+    // correctness is enabled wholesale via `categories` above;
+    // this entry only refines getter-return with an option, keeping it at "error".
     "getter-return": ["error", { allowImplicit: true }],
+    // this entry only refines no-unused-expressions
+    "eslint/no-unused-expressions": ["error", { allowShortCircuit: true, allowTernary: true }],
   },
 };
 

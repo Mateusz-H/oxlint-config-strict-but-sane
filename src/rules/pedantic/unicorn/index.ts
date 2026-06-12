@@ -60,7 +60,7 @@ export const pedanticUnicornRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.6.1
-  "unicorn/no-useless-undefined": "error",
+  "unicorn/no-useless-undefined": "off",
   //#endregion
 
   //#region 0.10.1

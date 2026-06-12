@@ -35,7 +35,7 @@ export const suspiciousEslintRules: DummyRuleMap = {
   //#endregion
 
   //#region 1.48.0
-  "no-shadow": "error",
+  "no-shadow": "off",
   "no-unmodified-loop-condition": "error",
   //#endregion
 
