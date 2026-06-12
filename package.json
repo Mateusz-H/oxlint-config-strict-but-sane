@@ -29,7 +29,8 @@
     }
   },
   "scripts": {
-    "build": "tsdown",
+    "check": "tsc -b",
+    "build": "npm run check && tsdown",
     "test": "node test/smoke.mjs"
   },
   "devDependencies": {
