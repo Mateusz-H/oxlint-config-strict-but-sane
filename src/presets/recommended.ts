@@ -24,5 +24,4 @@ export const recommended: OxlintConfig = {
     "eslint/no-unused-expressions": ["error", { allowShortCircuit: true, allowTernary: true }],
   },
 };
-
 export default recommended;

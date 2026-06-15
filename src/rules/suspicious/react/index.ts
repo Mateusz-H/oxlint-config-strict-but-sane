@@ -26,6 +26,6 @@ export const suspiciousReactRules: DummyRuleMap = {
   //#endregion
 
   //#region 1.66.0
-  "react/no-unstable-nested-components": "error",
+  "react/no-unstable-nested-components": "off",
   //#endregion
 };

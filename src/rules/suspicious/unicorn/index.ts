@@ -6,7 +6,7 @@ export const suspiciousUnicornRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.8.0
-  "unicorn/consistent-function-scoping": "error",
+  "unicorn/consistent-function-scoping": "off",
   //#endregion
 
   //#region 0.15.15

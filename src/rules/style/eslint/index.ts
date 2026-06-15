@@ -116,7 +116,7 @@ export const styleEslintRules: DummyRuleMap = {
   //#endregion
 
   //#region 1.10.0
-  "prefer-destructuring": "error",
+  "prefer-destructuring": "off",
   //#endregion
 
   //#region 1.12.0

@@ -11,7 +11,10 @@ export const styleReactRules: DummyRuleMap = {
 
   //#region 0.7.0
   "react/jsx-boolean-value": "error",
-  "react/jsx-curly-brace-presence": ["error", "never"],
+  "react/jsx-curly-brace-presence": [
+    "error",
+    { props: "never", children: "never", propElementValues: "always" },
+  ],
   //#endregion
 
   //#region 0.9.3
@@ -44,6 +47,6 @@ export const styleReactRules: DummyRuleMap = {
   //#endregion
 
   //#region 1.59.0
-  "react/hook-use-state": "error",
+  "react/hook-use-state": "off",
   //#endregion
 };
