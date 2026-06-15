@@ -97,7 +97,7 @@ export const styleEslintRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.15.11
-  "func-style": ["error", "expression"],
+  "func-style": ["error", "declaration", { allowArrowFunctions: true }],
   "init-declarations": "off",
   //#endregion
 

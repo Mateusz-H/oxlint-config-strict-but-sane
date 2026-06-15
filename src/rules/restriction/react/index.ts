@@ -6,7 +6,7 @@ export const restrictionReactRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.1.1
-  "react/button-has-type": "error",
+  "react/button-has-type": "off",
   //#endregion
 
   //#region 0.2.0
