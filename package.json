@@ -1,6 +1,6 @@
 {
   "name": "oxlint-config-strict-but-sane",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Config preset for oxlint",
   "keywords": [
     "config",
@@ -31,7 +31,8 @@
   "scripts": {
     "check": "tsc -b",
     "build": "npm run check && tsdown",
-    "test": "node test/smoke.mjs"
+    "test": "node test/smoke.mjs",
+    "prepublishOnly": "npm run build && npm test"
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^7.1.1",

@@ -28,7 +28,7 @@ export const styleUnicornRules: DummyRuleMap = {
   "unicorn/empty-brace-spaces": "error",
   "unicorn/no-nested-ternary": "error",
   "unicorn/no-zero-fractions": "error",
-  "unicorn/number-literal-case": "warn",
+  "unicorn/number-literal-case": "off",
   "unicorn/prefer-includes": "error",
   //#endregion
 

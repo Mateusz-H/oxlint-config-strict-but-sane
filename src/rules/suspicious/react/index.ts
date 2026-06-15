@@ -14,7 +14,7 @@ export const suspiciousReactRules: DummyRuleMap = {
   //#endregion
 
   //#region 0.11.0
-  "react/style-prop-object": "error",
+  "react/style-prop-object": "off",
   //#endregion
 
   //#region 0.13.2
