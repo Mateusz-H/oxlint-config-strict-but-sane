@@ -112,7 +112,7 @@ export const styleEslintRules: DummyRuleMap = {
 
   //#region 1.4.0
   "arrow-body-style": "error",
-  "id-length": "error",
+  "id-length": ["error", { exceptions: ["T", "K", "R", "P", "x", "y", "z", "r"] }],
   //#endregion
 
   //#region 1.10.0
