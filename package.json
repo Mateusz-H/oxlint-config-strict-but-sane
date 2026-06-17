@@ -1,6 +1,6 @@
 {
   "name": "oxlint-config-strict-but-sane",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Config preset for oxlint",
   "keywords": [
     "config",
